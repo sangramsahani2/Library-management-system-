@@ -1,19 +1,15 @@
-# Library-Management-Django
-A simple Library Management System with basic CRUD operations
+# Library-Management-system
+A Library Management System with CRUD operations
 
-Python version used == Python 3.7.8
+
 
 ## How To Run
-1. pip install -r requirements.txt to install all dependencies
-2. while in base directory ,the directory with manage.py  ,Run following in terminal
-
-    -->python3 reset_db.py  ,this setups database
-    
-    -->python3 populate.py  ,this fills models with fake data
-    
-    -->python3 manage.py createsuperuser  ,this creates the user
-    
-  3. Now Run  -->python3 manage.py runserver  and open the link
+goto project directory and run following command.
+1.  to install all dependencies : pip install -r requirements.txt
+2.  run : python manage.py makemigrations
+3.  run : python manage.py migrate
+4.  run : python3 manage.py runserver 
+5.  Open the link
 
 
 ### Optional Future updates
